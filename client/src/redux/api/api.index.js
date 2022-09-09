@@ -1,7 +1,7 @@
 import axios from 'axios';
 //url
-const apiUrl = 'http://localhost:5000';
-
+//const apiUrl = 'http://localhost:5000';
+const apiUrl = "https://memories-server.onrender.com";
 
 //create axios api
 const API = axios.create({ baseURL: apiUrl });
